@@ -1,0 +1,241 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.nav-ul {
+  background-color: black;
+  padding: 7px;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.nav-ul-r {
+  text-align: right;
+}
+
+.footer {
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+.signup {
+  text-align: center;
+}
+
+.signup h1 {
+  color: black;
+}
+
+.signup input {
+  padding: 10px;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup button {
+  padding: 10px;
+  font-size: 1em;
+  /* border-radius: 10px; */
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  margin-top: 15px;
+}
+
+.signup button:hover {
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+}
+
+.logo {
+  width: 45px;
+  padding: 0px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 6px;
+  margin-right: 18px;
+}
+
+.addproduct {
+  text-align: center;
+}
+
+.addproduct h1 {
+  color: black;
+}
+
+.addproduct input {
+  padding: 10px;
+  display: block;
+  /* border-radius: 5px; */
+  border: 1px solid black;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.addproduct button {
+  padding: 10px;
+  font-size: 1em;
+  /* border-radius: 10px; */
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  margin-top: 15px;
+}
+
+.addproduct button:hover {
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+}
+
+.addproduct span {
+  color: red;
+  text-align: left;
+}
+
+.productlist {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.productlist h3 {
+  color: black;
+}
+
+.headrow li {
+  display: inline-block;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  width: 10%;
+}
+
+.datarow li {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  width: 10%;
+}
+
+.productlist ul {
+  margin: 0px;
+}
+
+.productlist input {
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-left: 57%;
+}
+
+.prolistbtn {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 3px;
+  margin-left: 0.5px;
+  margin-right: 0.5px;
+}
+
+.prolistbtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.prolistbtn a {
+  text-decoration: none;
+  color: black;
+}
+
+.prolistbtn a:hover {
+  color: white;
+}
+
+.categorylist {
+  padding: 25px 20px 2px 20px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  border: 2px solid black;
+}
+.categorylist a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.categorylist:hover {
+  background-color: black;
+}
+.categorylist:hover a {
+  color: white;
+}
+
+.subcategorylist {
+  padding: 25px 20px 2px 20px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  border: 2px solid black;
+}
+.subcategorylist a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.subcategorylist:hover {
+  background-color: black;
+}
+.subcategorylist:hover a {
+  color: white;
+}
+
+.categorylink a {
+  text-decoration: none;
+  color: black;
+}
+
+.horizontal {
+  display: inline-block;
+  width: 15%;
+  margin-bottom: 2%;
+  margin-left: 70px;
+}
+
+.subcategoryproduct {
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.subcategoryproduct img {
+  width: 100px;
+}
